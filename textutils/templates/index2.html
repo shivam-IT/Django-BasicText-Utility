@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Text Utils</title>
+</head>
+<body>
+<h1>
+Welcome to the text analyazer.Enter your text below.
+</h1>
+<form action='/analyze' method='get'>
+    <textarea name='text' style='margin: 0px; width: 710px; height: 112px;'></textarea>
+    <br>
+    <input type="radio" name="removepunc"> Remove Punctuations<br>
+    <input type="radio" name="fullcaps"> UPPERCASE <br>
+    <input type="radio" name="newlineremover"> Newline Remove <br>
+    <input type="radio" name="spaceremover"> Space Remove <br>
+    <input type="radio" name="charcount"> No of characters <br>
+    <button type="submit">Analyze Text</button>
+</form>
+
+</body>
+</html>
